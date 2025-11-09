@@ -1,0 +1,37 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="heading">Kiran's Diner</h1>
+            <h2 class="sub-heading">The best burgers and pizzas in town.</h2>
+            <img src="/images/845364ecacaeaea44c5e3a8cd7159c5d52f26662.jpg" class="header-img">
+        </header>
+        
+        <div class='main' id="main">
+        </div>
+        <section class="total-price" id="total-price">
+        </section>
+        <section class="total" id="total">
+            <div class="orders">
+                    <h2 class="order-item">Total price:</h2>
+                </div>
+                <h2 class="order-price" id="total-order-price"></h2>
+        </section>
+        <button class="complete-order" id="complete-order">Complete Order</button>
+        <div class="card-details-div" id="card-details-div">
+        <form class="card-details-form" id="card-details-form">
+            <span class="close-form" id="close-form">X</span>
+            <h1 class="card-details-heading">Enter card details</h1>
+            <input type="text" placeholder="Enter your name" required class="card-details">
+            <input type="number" placeholder="Enter card number" required class="card-details">
+            <input type="number" placeholder="Enter CVV" required class="card-details">
+            <button type="submit"class='complete-payment' id="complete-payment">Pay</button>
+        </form>
+        </div>
+        <h1 class="finish-msg" id="finish-msg">Thanks,James! Your order is on its way</h1>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
